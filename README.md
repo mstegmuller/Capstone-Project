@@ -14,22 +14,23 @@ https://www.ncei.noaa.gov/access/billions/mapping
 
 
 2.	Data Cleaning
-  1.	The first part of data wrangling after I read the datasets was to merge the state disaster dataset with the state cost data set.  I also looked at the mean, max, and standard deviation of the cost of the disasters.
-  2.	Created data frame with the number of deaths per disaster
-  3.	Grouped the dates by year and created a data frame based on the year and disaster
-   
+  .	The first part of data wrangling after I read the datasets was to merge the state disaster dataset with the state cost data set.  I also looked at the mean, max, and standard deviation of the cost of the disasters.
+  .	Created data frame with the number of deaths per disaster
+  .	Grouped the dates by year and created a data frame based on the year and disaster
+
+
 
 3.  Machine Learning 
-	For the Machine learning I decided to do different types of regression models to predict the price.  I used a linear regression model, a decision tree regression model, and a random forest regression model. I chose the random forest regression model due to its accuracy score and it cross validation scores.
+	For the Machine learning I decided to do different types of regression models to predict the price.  I used a linear regression model, a decision tree regression model, and a random forest regression model. I 	chose the random forest regression model due to its accuracy score and it cross validation scores.
 
   
 4.Takaways
-The models didn’t have enough predictive power so I added population data to see if I could get a better prediction.  I felt that adding the population would better help with the prediction because where there are more people there is more likely to have damage happen.
+	The models didn’t have enough predictive power so I added population data to see if I could get a better prediction.  I felt that adding the population would better help with the prediction because where there are 	more people there is more likely to have damage happen.
 	
 5.Predictions
-Unfortunately adding the population to the data did not improve the predictive power.
+	Unfortunately adding the population to the data did not improve the predictive power.
 
 6. Future Improvements 
-Future improvements for the data I would use is the cost and type of the infrastructure.  Knowing the type of damage done and how much it costs would be helpful for predictions.  
+	Future improvements for the data I would use is the cost and type of the infrastructure.  Knowing the type of damage done and how much it costs would be helpful for predictions.  
 
 
