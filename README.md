@@ -18,7 +18,9 @@ https://www.ncei.noaa.gov/access/billions/mapping
   .	Created data frame with the number of deaths per disaster
   .	Grouped the dates by year and created a data frame based on the year and disaster
 
+   Data Exploration
 
+https://github.com/mstegmuller/Capstone-Project/blob/c9f18ce2292c28839c516b7836a0b0c066f51b11/2.%20Data%20Exploration%20.ipynb
 
 3.  Machine Learning 
 	For the Machine learning I decided to do different types of regression models to predict the price.  I used a linear regression model, a decision tree regression model, and a random forest regression model. I 	chose the random forest regression model due to its accuracy score and it cross validation scores.
